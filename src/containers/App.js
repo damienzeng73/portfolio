@@ -3,6 +3,7 @@ import { Container } from 'semantic-ui-react'
 
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import Body from './Body'
 import './App.css'
 
 class App extends React.Component {
@@ -10,7 +11,7 @@ class App extends React.Component {
         return (
             <Container id='app-container' fluid>
                 <Header />
-                <div className='test' name='test'>This is body section.</div>
+                <Body />
                 <Footer />
             </Container>
         )
