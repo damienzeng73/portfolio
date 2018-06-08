@@ -1,8 +1,14 @@
 import React from 'react'
+import { Container } from 'semantic-ui-react'
+
+import SocialMediaBar from './SocialMediaBar'
+import './Footer.css'
 
 const Footer = () => {
     return (
-        <div>Footer</div>
+        <Container id='footer'>
+            <SocialMediaBar />
+        </Container>
     )
 }
 
